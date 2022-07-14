@@ -2,13 +2,13 @@ import React from "react";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";
-import NotificationList from "./chapter_06/NotificartionList";
+import Accommodate from "./chapter_07/Accommodata";
 
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Accommodate />
   </React.StrictMode>
 );
 

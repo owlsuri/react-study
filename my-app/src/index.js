@@ -2,13 +2,13 @@ import React from "react";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";
-import Accommodate from "./chapter_07/Accommodata";
+import ConfirmButton from "./chapter_08/ConfirmButton";
 
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton />
   </React.StrictMode>
 );
 

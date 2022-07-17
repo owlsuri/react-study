@@ -2,13 +2,13 @@ import React from "react";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { createRoot } from "react-dom/client";
-import Calculator from "./chapter_12/Calulater";
+import ProfileCard from "./chapter_13/ProfileCard";
 
 const root = createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 );
 
